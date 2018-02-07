@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+28
+'Ingrese el valor de num1: '
+5
+1
+4
+num1
+4
+1
+26
+'Ingrese el valor de num2'
+5
+1
+4
+num2
+6
+1
+4
+suma
+9
+num1+num2
+6
+3
+5
+resta
+9
+num1-num2
+5
+multi
+9
+num1*num2
+3
+div
+9
+num1/num2
+4
+1
+39
+'La sumatoria es: ', suma, ' lero lero'
+4
+1
+22
+'La resta es: ', resta
+4
+1
+31
+'La multiplicación es: ', multi
+4
+1
+20
+'La división: ', div
+1

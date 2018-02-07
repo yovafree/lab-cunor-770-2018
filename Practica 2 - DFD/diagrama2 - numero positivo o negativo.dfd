@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+26
+'Ingrese el primer número'
+5
+1
+4
+num1
+7
+1
+1
+8
+num1 < 0
+4
+1
+10
+'Negativo'
+13
+7
+1
+1
+8
+num1 > 0
+4
+1
+10
+'Positivo'
+13
+4
+1
+6
+'Cero'
+13
+13
+1
