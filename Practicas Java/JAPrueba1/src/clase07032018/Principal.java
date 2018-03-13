@@ -34,9 +34,7 @@ public class Principal {
                 num1 = cos;
                 
                 if (num1>1){
-                    binario = res + binario;
-                }else if (num1 == 1){
-                    binario = cos + binario;
+                    binario =  res + binario;
                 }else{
                     binario = 0 + binario;
                 }
@@ -50,7 +48,7 @@ public class Principal {
     }
     
     public static void BinToAscii(){
-        String palabra = "00101000";
+        String palabra = "00011110";
         int dec = 0;
         int count = 0;
         for (int y= 7; y>=0;y--){
