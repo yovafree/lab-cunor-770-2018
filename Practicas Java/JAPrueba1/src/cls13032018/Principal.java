@@ -27,17 +27,18 @@ public class Principal {
         
         // ASCII A HEXADECIMAL
         /*
-        String palabra = "3er. Ciclo CUNOR - Ciencias y Sistemas";
+        String palabra = "Este es un mensaje cifrado.";
         String salida="";
         for (int x= 0; x<palabra.length();x++){
             int caracter = (int) palabra.charAt(x);
             salida = salida + DecToHex(caracter) + " ";
         }
-        System.out.println("Mensaje Binario: \n" + salida);
+        System.out.println("Mensaje Hexadecimal: \n" + salida);
         */
         
         // HEXADECIMAL A ASCII
-        String palabra = "33 65 72 2E 20 43 69 63 6C 6F 20 43 55 4E 4F 52 20 2D 20 43 69 65 6E 63 69 61 73 20 79 20 53 69 73 74 65 6D 61 73";
+        
+        String palabra = "45 73 74 65 20 65 73 20 75 6E 20 6D 65 6E 73 61 6A 65 20 63 69 66 72 61 64 6F 2E";
         String[] arrPalabras = palabra.split(" ");
         String salida = "";
         for (int x = 0; x< arrPalabras.length;x++){
@@ -45,6 +46,7 @@ public class Principal {
             
         }
         System.out.println(salida);
+        
     }
     
     /**
