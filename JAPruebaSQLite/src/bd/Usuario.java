@@ -44,4 +44,32 @@ public class Usuario {
         }
         return rs;
     }
+    
+    public ResultSet getTop5(){
+        String sSQL = "SELECT punteo, nombres, apellidos FROM usuario ORDER BY punteo DESC LIMIT 5";
+        try {
+            Statement s = ConeccionSQLite.createStatement();
+             rs = s.executeQuery(sSQL);
+        } catch (SQLException ex) {
+            Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
+            
+        }
+        return rs;
+    }
+    
+    /**
+     * Metodo getUsuarios
+     * @return devuelve los usuarios.
+     */
+    public int inUsuario(String nombres, String apellidos){
+        String sSQL = "INSERT INTO usuario(nombres,apellidos) values('"+nombres+"','" + apellidos +"')";
+        try {
+            Statement s = ConeccionSQLite.createStatement();
+             rs = s.executeQuery(sSQL);
+        } catch (SQLException ex) {
+            Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
+            
+        }
+        return 1;
+    }
 }
