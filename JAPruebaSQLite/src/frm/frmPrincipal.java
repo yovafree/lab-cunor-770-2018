@@ -74,8 +74,6 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnGuardar = new javax.swing.JButton();
         btnGuardar1 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
         tblUsuarios.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
